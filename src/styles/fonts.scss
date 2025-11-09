@@ -1,0 +1,14 @@
+$open: (
+    'Bold': 700,
+    'Medium' : 500
+) ;
+
+@each $name,
+$weight in $open{
+    @font-face {
+        font-family: 'SpaceGrotesk';
+        src: url('../assets/fonts/SpaceGrotesk-#{$name}.ttf');
+        font-style: normal;
+        font-weight: $weight;
+    }
+}
