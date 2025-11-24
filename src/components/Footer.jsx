@@ -3,7 +3,7 @@ import insta from "../assets/img/logo-icons/Instagram.svg";
 import Linkedin from "../assets/img/logo-icons/Linkedin.svg";
 import gh from "../assets/img/logo-icons/GitHub.svg";
 import mail from "../assets/img/logo-icons/Email.svg";
-import logo from "../assets/img/logo-icons/{still.dev}.svg";
+import logo from "../assets/img/logo-icons/Logotype.svg";
 
 export default function Footer() {
   return (
